@@ -1,0 +1,25 @@
+.nav-pills > li {
+    /*float: left;*/
+
+    background-color: #EEEEEE;
+    border-width: 1px;
+    border: 1px solid gray;
+    color:#000000;
+}
+.nav-pills > li > a {
+    color: #2f3649;
+    border-radius: 0px;
+    border-bottom: none;
+}
+.nav-pills li+li{
+    border-left: none;
+}
+.nav-pills > li.active,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fb625d;
+    background-color: #ffffff;
+    /*border:none;*/
+    border-bottom: none;
+}

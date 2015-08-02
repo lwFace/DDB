@@ -1,0 +1,288 @@
+#identify{
+    margin: 20px;
+}
+body{
+    margin: 0;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", "Monda", Arial, serif;
+}
+footer{
+    text-align: center;
+}
+.center-95{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.carousel {
+    height: 500px;
+    background-color: #000;
+
+}
+.carousel .item{
+    height: 500px;
+    background-color: #000;
+
+}
+.carousel img{
+    width: 100%;
+}
+.carousel-caption{
+    margin-bottom: 20px;
+    line-height: 150px;
+    color: #000000;
+}
+#identify{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.redFont{
+    color: #fb625d;
+}
+.grayFont{
+    color:#2f3649;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*teacherInfo.index*/
+/* Computer */
+@media only screen and (min-width: 980px) {
+    a, button, input[type=submit], input[type=button], .product-img {
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+    }
+
+    .ch-container {
+        padding: 0 20px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+}
+.sidebar-nav {
+    min-height: 0;
+    box-shadow: 0 0 10px #BDBDBD;
+    border-radius: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    max-height: none;
+}
+
+.sidebar-nav > ul > li:not(.nav-header) {
+    margin-right: -2px;
+    margin-left: -2px;
+}
+.sidebar-nav .nav-header {
+    display: block;
+    padding: 3px 15px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #999999;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.main-menu > li > a {
+    border: 1px solid rgba(221, 221, 221, 0.46);
+}
+
+.main-menu > li {
+    margin-top: 0 !important;
+}
+
+ul.main-menu li:hover {
+    margin-left: 8px;
+}
+
+ul.main-menu li.active {
+    margin-left: 8px;
+}
+
+ul.main-menu li.nav-header:hover {
+    margin-left: 0;
+}
+
+ul.main-menu li:not(.nav-header) {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.box-header {
+    border: none;
+    padding-top: 5px;
+    border-bottom: 1px solid #DEDEDE;
+    border-radius: 3px 3px 0 0;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    height: 35px;
+    min-height: 35px !important;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(0, 0, 0, 0.1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#1a000000', GradientType=0);
+
+}
+
+.box-header h2 {
+    font-size: 15px;
+    width: auto;
+    clear: none;
+    float: left;
+    line-height: 25px;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#content p{
+    font-size: 15px;
+    width: auto;
+    clear: none;
+    float: left;
+    line-height: 25px;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+.box-inner .img-thumbnail{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.box-inner .nav-pills{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.box-inner .table{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 90%;
+}
+footer{
+    padding-top:40px;
+    background-color: #2f3649;
+    height: 100px;
+    color:#FFF;
+}
+footer #webAddr{
+    color: #fb625d;
+}
+
+#headerBar{
+    background-color: #000000;
+    height: 35px;
+    width: 100%;
+}
+#topBar{
+    height: 100%;
+    width:65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headerBar a{
+    float: right;
+    margin: 0px 10px;
+    line-height: 35px;
+    text-decoration:none;
+    color:#ffffff;
+}
+#headerBar a:hover{
+    color: #fb625d;
+}
+@font-face {
+    font-family: 'FZZYJW';
+    url('fonts/FZZYJW.TTF') format('TTF');
+}
+.carousel-caption p{
+    margin-top: -10px;
+    line-height: 30px;
+    font-family: FZZYJW;
+    color: #000000;
+    filter:alpha(opacity=100); /*IE滤镜，透明度50%*/
+    -moz-opacity:1; /*Firefox私有，透明度50%*/
+    opacity:1;/*其他，透明度50%*/
+}
+
+.login_wrapper{
+    padding-top: 90px;
+    margin-top: -50px;
+    height: 845px;
+    width:100%;
+    background-image: url("../imgs/login/main.jpg");
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.login_main{
+    /*position: absolute;*/
+    margin-left: 55%;
+    width: 400px;
+    height: 360px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*二维码*/
+.login_QR{
+    background-image: url("../imgs/login/erwei.png");
+    background-repeat: no-repeat;
+    margin-left: 55%;
+    height: 360px;
+    margin-top: 20px;
+}
+.login_label{
+    float: right;
+    margin: 10px;
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .box-icon {
+        display: none;
+    }
+
+    .box-header h2 {
+        font-size: 13px !important;
+    }
+
+    .box-header h3 {
+        font-size: 11px !important;
+    }
+
+    .main-menu-span {
+        width: 6.2% !important;
+        margin-right: 4%;
+    }
+
+    .top-menu > li i {
+        display: none;
+    }
+
+    .sidebar-nav li span {
+        display: block !important;
+    }
+
+    .sidebar-nav li a, .sidebar-nav .nav-header {
+        text-align: center
+    }
+
+    .sidebar-nav {
+        padding: 0;
+        margin-bottom: 0;
+    }
+}

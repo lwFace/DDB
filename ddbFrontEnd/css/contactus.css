@@ -1,0 +1,21 @@
+
+.contact-header{
+    position: relative;
+    left: 40px;
+    padding: 10px 90px 10px 15px;
+
+}
+.contact-list{
+    position: relative;
+    left: 80px;
+}
+
+.form-contact{
+    position: relative;
+    left: 40px;
+    top: 15px;
+    width: 50%;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
